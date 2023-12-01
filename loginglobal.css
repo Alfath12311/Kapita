@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-fredoka: Fredoka;
+  --font-fredoka-one: "Fredoka One";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-silver: #b9b9b9;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+}

@@ -1,0 +1,655 @@
+
+.atas-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #540754;
+    width: 1063px;
+    height: 79px;
+  }
+  .profil-icon {
+    position: absolute;
+    height: 49.98%;
+    width: 3.93%;
+    top: 26.87%;
+    right: 33.64%;
+    bottom: 23.15%;
+    left: 62.44%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .login-admin-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-2xs);
+    background-color: #4552c6;
+    width: 110px;
+    height: 23px;
+  }
+  .login-admin,
+  .login-admin1 {
+    position: absolute;
+    top: 3px;
+    left: 11px;
+  }
+  .login-admin {
+    top: 31px;
+    left: 830px;
+    width: 110px;
+    height: 23px;
+    cursor: pointer;
+  }
+  .layanan-mandiri-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-2xs);
+    background-color: #3db732;
+    width: 140px;
+    height: 23px;
+    cursor: pointer;
+  }
+  .layanan-mandiri,
+  .vector-icon {
+    position: absolute;
+    top: 31px;
+    left: 679px;
+    width: 140px;
+    height: 23px;
+  }
+  .vector-icon {
+    height: 35.89%;
+    width: 2.82%;
+    top: 31.99%;
+    right: 94.96%;
+    bottom: 32.12%;
+    left: 2.22%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .cari {
+    top: 31px;
+    left: 76px;
+    letter-spacing: 0.06em;
+  }
+  .atas,
+  .cari,
+  .sidebar1 {
+    position: absolute;
+  }
+  .atas {
+    top: -3px;
+    left: 287px;
+    width: 993px;
+    height: 79px;
+    font-size: var(--font-size-smi);
+  }
+  .sidebar1 {
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 287px;
+    height: 729px;
+  }
+  .sidebar-child {
+    position: absolute;
+    top: 67.84px;
+    left: 7px;
+    border-radius: 10px;
+    background-color: #c2abe0;
+    width: 263px;
+    height: 32.4px;
+  }
+  .prakiraan-cuaca1 {
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 179px;
+    height: 17px;
+    cursor: pointer;
+  }
+  .vector-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 10.56%;
+    top: 0;
+    right: 89.44%;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .peta-wilayah1,
+  .prakiraan-cuaca {
+    position: absolute;
+    top: 654px;
+    left: 34px;
+    width: 221px;
+    height: 23.92px;
+  }
+  .peta-wilayah1 {
+    top: 6px;
+    left: 45px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 156px;
+    height: 16px;
+  }
+  .mdilocation-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28.35px;
+    overflow: hidden;
+  }
+  .peta-wilayah {
+    position: absolute;
+    top: 601px;
+    left: 34px;
+    width: 201px;
+    height: 28.35px;
+    cursor: pointer;
+  }
+  .galeri1 {
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 97px;
+    height: 16.2px;
+  }
+  .solargallery-bold-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 31px;
+    height: 31px;
+    overflow: hidden;
+  }
+  .galeri {
+    position: absolute;
+    top: 545px;
+    left: 33px;
+    width: 142px;
+    height: 31px;
+    cursor: pointer;
+  }
+  .aparatur-desa1 {
+    position: absolute;
+    top: 10.71px;
+    left: 49px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 155px;
+    height: 17.21px;
+  }
+  .material-symbolsperson-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+  }
+  .aparatur-desa {
+    position: absolute;
+    top: 482px;
+    left: 30px;
+    width: 204px;
+    height: 38px;
+    cursor: pointer;
+  }
+  .agenda1 {
+    position: absolute;
+    top: 4.84px;
+    left: 44.41px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 97px;
+    height: 16.2px;
+    cursor: pointer;
+  }
+  .agenda,
+  .icon {
+    position: absolute;
+    height: 31px;
+  }
+  .icon {
+    top: 0;
+    left: 0;
+    width: 27px;
+    overflow: hidden;
+  }
+  .agenda {
+    top: 426px;
+    left: 35px;
+    width: 141.41px;
+  }
+  .gisprofile-o-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+  }
+  .statistik1 {
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 89px;
+    height: 16.2px;
+    cursor: pointer;
+  }
+  .icon1,
+  .statistik {
+    position: absolute;
+    top: 365px;
+    left: 34px;
+    width: 136px;
+    height: 36px;
+  }
+  .icon1 {
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 35px;
+    overflow: hidden;
+  }
+  .aturan-desa {
+    position: absolute;
+    top: 6px;
+    left: 48px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 153px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .icon2,
+  .regulasi {
+    position: absolute;
+    top: 305px;
+    left: 31px;
+    width: 201px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .icon2 {
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 37px;
+    overflow: hidden;
+  }
+  .informasi-desa {
+    position: absolute;
+    top: 7px;
+    left: 51px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 184px;
+    height: 14px;
+    cursor: pointer;
+  }
+  .berita {
+    position: absolute;
+    top: 243px;
+    left: 31px;
+    width: 235px;
+    height: 37px;
+  }
+  .profil1,
+  .sdg-desa,
+  .status-idm {
+    position: absolute;
+    left: 66px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .status-idm {
+    top: 44px;
+    width: 126px;
+    height: 14px;
+    cursor: pointer;
+  }
+  .profil1,
+  .sdg-desa {
+    top: 78px;
+    width: 92px;
+    height: 15.19px;
+    cursor: pointer;
+  }
+  .profil1 {
+    top: 3.35px;
+    left: 43.55px;
+    font-size: var(--font-size-base);
+    width: 88px;
+    height: 17.21px;
+  }
+  .drop-down-icon,
+  .vector-icon2 {
+    position: absolute;
+    height: 30.05%;
+    width: 12.53%;
+    top: 0;
+    right: 87.47%;
+    bottom: 69.95%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .drop-down-icon {
+    height: 8.17%;
+    width: 6.03%;
+    top: 13.02%;
+    right: 0;
+    bottom: 78.81%;
+    left: 93.97%;
+  }
+  .profil {
+    position: absolute;
+    top: 125px;
+    left: 31px;
+    width: 215.55px;
+    height: 93.19px;
+    font-size: var(--font-size-mini);
+  }
+  .beranda1 {
+    position: absolute;
+    top: 4.16px;
+    left: 43.55px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 86px;
+    height: 17.21px;
+    cursor: pointer;
+  }
+  .vector-icon3 {
+    position: absolute;
+    height: 100%;
+    width: 18.65%;
+    top: 0;
+    right: 81.35%;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .beranda {
+    position: absolute;
+    top: 72.79px;
+    left: 31px;
+    width: 129.55px;
+    height: 24.77px;
+    font-size: 14px;
+  }
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 287px;
+    height: 729px;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-fredoka);
+  }
+  .img-20230418-wa0028-1-icon {
+    position: absolute;
+    top: 101px;
+    left: 382px;
+    border-radius: 12px;
+    width: 804px;
+    height: 417px;
+    object-fit: cover;
+  }
+  .desa {
+    margin: 0;
+  }
+  .desa-marga-agung-container {
+    position: absolute;
+    top: 11px;
+    left: 45px;
+    letter-spacing: 0.09em;
+    line-height: 95%;
+    display: inline-block;
+    width: 175px;
+    height: 32px;
+  }
+  .logo-desa,
+  .logo-desa-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 35px;
+    height: 47px;
+    object-fit: cover;
+  }
+  .logo-desa {
+    position: absolute;
+    top: 8px;
+    left: 26px;
+    width: 220px;
+    height: 47px;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-hammersmith-one);
+  }
+  .dusun-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-lgi);
+    background-color: #19ae43;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .group-icon {
+    position: absolute;
+    height: 69.39%;
+    width: 36.82%;
+    top: 19.28%;
+    right: 10.11%;
+    bottom: 11.33%;
+    left: 53.07%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.75;
+  }
+  .b,
+  .dusun1 {
+    position: absolute;
+    top: 95.99px;
+    left: 26.51px;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    width: 133.47px;
+    height: 21.94px;
+  }
+  .b {
+    top: 20.11px;
+    font-size: var(--font-size-45xl);
+    font-family: var(--font-helvetica-rounded);
+    height: 63.99px;
+  }
+  .dusun {
+    top: 692px;
+    left: 387px;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .b1,
+  .dusun,
+  .jiwa-child {
+    position: absolute;
+  }
+  .jiwa-child {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-lgi);
+    background-color: #ae1985;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .b1 {
+    top: 17.37px;
+    left: 20.11px;
+    font-size: 50px;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    font-family: var(--font-helvetica-rounded);
+    width: 133.47px;
+    height: 63.99px;
+  }
+  .vector-icon4 {
+    position: absolute;
+    height: 34.01%;
+    width: 28.52%;
+    top: 42.33%;
+    right: 6.86%;
+    bottom: 23.66%;
+    left: 64.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.75;
+  }
+  .jiwa {
+    position: absolute;
+    top: 535px;
+    left: 386px;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .geser-gambar-icon,
+  .geser-gambar-icon1 {
+    position: absolute;
+    height: 7.13%;
+    width: 2.21%;
+    top: 38.75%;
+    right: 72.71%;
+    bottom: 54.12%;
+    left: 25.08%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .geser-gambar-icon1 {
+    top: 40.14%;
+    right: 2.55%;
+    bottom: 52.73%;
+    left: 95.23%;
+  }
+  .image-2-icon {
+    position: absolute;
+    top: 535px;
+    left: 671px;
+    border-radius: var(--br-lgi);
+    width: 511px;
+    height: 188px;
+    object-fit: cover;
+  }
+  .up-icon {
+    position: absolute;
+    top: 640px;
+    left: 1250px;
+    width: 57px;
+    height: 59.67px;
+    cursor: pointer;
+  }
+  .keluarga-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-lgi);
+    background-color: #ae1919;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .keluarga1 {
+    top: 95.99px;
+    left: 20.11px;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    width: 133.47px;
+    height: 21.94px;
+  }
+  .b2,
+  .home-icon,
+  .keluarga1 {
+    position: absolute;
+  }
+  .b2 {
+    top: 17.37px;
+    left: 20.11px;
+    font-size: var(--font-size-45xl);
+    letter-spacing: 0.06em;
+    display: inline-block;
+    font-family: var(--font-helvetica-rounded);
+    width: 133.47px;
+    height: 63.99px;
+  }
+  .home-icon {
+    top: 26.51px;
+    left: 153.59px;
+    width: 86.93px;
+    height: 86.93px;
+    overflow: hidden;
+    opacity: 0.75;
+  }
+  .keluarga {
+    position: absolute;
+    top: 853px;
+    left: 387px;
+    width: 253.24px;
+    height: 136.07px;
+  }
+  .home-screen-child {
+    position: absolute;
+    top: 339px;
+    left: 694px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .home-screen {
+    position: relative;
+    background-color: #eaeaea;
+    width: 100%;
+    height: 729px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-fredoka-one);
+  }
+  
+  .tomorrow {
+    padding-bottom:22px;
+    position: relative;
+    max-width: 525px ;
+    margin: 0 auto;
+  }

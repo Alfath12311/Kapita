@@ -1,0 +1,531 @@
+.up-icon {
+    position: absolute;
+    top: 636px;
+    left: 1192px;
+    width: 57px;
+    height: 57px;
+  }
+  .atas-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #540754;
+      width: 1200px;
+      height: 79px;
+    }
+    .profil-icon {
+      position: absolute;
+      height: 49.98%;
+      width: 3.93%;
+      top: 26.87%;
+      right: 33.64%;
+      bottom: 23.15%;
+      left: 62.44%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+    .login-admin-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: var(--br-2xs);
+      background-color: #4552c6;
+      width: 110px;
+      height: 23px;
+    }
+    .login-admin,
+    .login-admin1 {
+      position: absolute;
+      top: 3px;
+      left: 11px;
+    }
+    .login-admin {
+      top: 31px;
+      left: 830px;
+      width: 110px;
+      height: 23px;
+      cursor: pointer;
+    }
+.layanan-mandiri-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 11px;
+    background-color: #3db732;
+    width: 140px;
+    height: 23px;
+}
+.layanan-mandiri1 {
+    position: absolute;
+    top: 3px;
+    left: 11px;
+}
+.layanan-mandiri {
+    position: absolute;
+    top: 31px;
+    left: 679px;
+    width: 140px;
+    height: 23px;
+}
+.vector-icon {
+    position: absolute;
+    height: 35.44%;
+    width: 2.82%;
+    top: 31.65%;
+    right: 94.96%;
+    bottom: 32.91%;
+    left: 2.22%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cari {
+    position: absolute;
+    top: 31px;
+    left: 76px;
+    letter-spacing: 0.06em;
+}
+.atas {
+    position: absolute;
+    top: 0px;
+    left: 287px;
+    width: 993px;
+    height: 79px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Fredoka One';
+}
+.sidebar1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 287px;
+    height: 729px;
+}
+.sidebar-child {
+    position: absolute;
+    top: 67.84px;
+    left: 7px;
+    border-radius: 10px;
+    background-color: #c2abe0;
+    width: 263px;
+    height: 32.4px;
+    display: none;
+}
+.sidebar-item {
+    position: absolute;
+top: 305px;
+left: 7px;
+border-radius: 10px;
+background-color: #c2abe0;
+width: 263px;
+height: 32.4px;
+}
+.sidebar-inner {
+    position: absolute;
+    top: 305px;
+    left: 7px;
+    border-radius: 10px;
+    background-color: #c2abe0;
+    width: 263px;
+    height: 32.4px;
+}
+.prakiraan-cuaca1 {
+    position: absolute;
+    top: 3px;
+    left: 42px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 179px;
+    height: 17px;
+}
+.vector-icon1 {
+    position: absolute;
+    height: 100%;
+    width: 10.56%;
+    top: 0%;
+    right: 89.44%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.prakiraan-cuaca {
+    position: absolute;
+    top: 654px;
+    left: 34px;
+    width: 221px;
+    height: 23.92px;
+}
+.peta-wilayah1 {
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 156px;
+    height: 16px;
+}
+.mdilocation-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 28.35px;
+    overflow: hidden;
+}
+.peta-wilayah {
+    position: absolute;
+    top: 601px;
+    left: 34px;
+    width: 201px;
+    height: 28.35px;
+    cursor: pointer;
+}
+.galeri2 {
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 97px;
+    height: 16.2px;
+}
+.solargallery-bold-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 31px;
+    height: 31px;
+    overflow: hidden;
+}
+.galeri1 {
+    position: absolute;
+    top: 545px;
+    left: 33px;
+    width: 142px;
+    height: 31px;
+    cursor: pointer;
+}
+.aparatur-desa1 {
+    position: absolute;
+    top: 10.71px;
+    left: 49px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 155px;
+    height: 17.21px;
+}
+.material-symbolsperson-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.aparatur-desa {
+    position: absolute;
+    top: 482px;
+    left: 30px;
+    width: 204px;
+    height: 38px;
+    cursor: pointer;
+}
+.agenda1 {
+    position: absolute;
+    top: 4.84px;
+    left: 44.41px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 97px;
+    height: 16.2px;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 27px;
+    height: 31px;
+    overflow: hidden;
+}
+.agenda {
+    position: absolute;
+    top: 426px;
+    left: 35px;
+    width: 141.41px;
+    height: 31px;
+}
+.gisprofile-o-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.statistik1 {
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 89px;
+    height: 16.2px;
+}
+.statistik {
+    position: absolute;
+    top: 365px;
+    left: 34px;
+    width: 136px;
+    height: 36px;
+}
+.icon1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 29px;
+    overflow: hidden;
+}
+.aturan-desa {
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 153px;
+    height: 18px;
+}
+.regulasi {
+    position: absolute;
+    top: 308px;
+    left: 34px;
+    width: 198px;
+    height: 29px;
+}
+.icon2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 37px;
+    height: 37px;
+    overflow: hidden;
+}
+.informasi-desa {
+    position: absolute;
+    top: 7px;
+    left: 51px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 184px;
+    height: 14px;
+}
+.berita {
+    position: absolute;
+    top: 243px;
+    left: 31px;
+    width: 235px;
+    height: 37px;
+}
+.status-idm {
+    position: absolute;
+    top: 44px;
+    left: 66px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 126px;
+    height: 14px;
+    cursor: pointer;
+}
+.sdg-desa {
+    position: absolute;
+    top: 78px;
+    left: 66px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 92px;
+    height: 15.19px;
+}
+.profil1 {
+    position: absolute;
+    top: 3.35px;
+    left: 43.55px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 88px;
+    height: 17.21px;
+}
+.vector-icon2 {
+    position: absolute;
+    height: 30.05%;
+    width: 12.53%;
+    top: 0%;
+    right: 87.47%;
+    bottom: 69.95%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.drop-down-icon {
+    position: absolute;
+    height: 8.17%;
+    width: 6.03%;
+    top: 13.02%;
+    right: 0%;
+    bottom: 78.81%;
+    left: 93.97%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.profil {
+    position: absolute;
+    top: 125px;
+    left: 31px;
+    width: 215.55px;
+    height: 93.19px;
+    font-size: 15px;
+}
+.beranda1 {
+    position: absolute;
+    top: 4.16px;
+    left: 43.55px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 86px;
+    height: 17.21px;
+}
+.vector-icon3 {
+    position: absolute;
+    height: 100%;
+    width: 18.65%;
+    top: 0%;
+    right: 81.35%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.beranda {
+    position: absolute;
+    top: 72.79px;
+    left: 31px;
+    width: 129.55px;
+    height: 24.77px;
+    font-size: 14px;
+}
+.sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 287px;
+    height: 729px;
+    font-size: 16px;
+}
+.aturan-11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+.lorem-ipsum-dolor {
+    margin: 0;
+}
+.lorem-ipsum-dolor-container {
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-family: 'Helvetica Rounded';
+}
+.aturan-1 {
+    position: absolute;
+    top: 128px;
+    left: 337px;
+    width: 852px;
+    height: 100px;
+}
+.aturan-2 {
+    position: absolute;
+    top: 273px;
+    left: 337px;
+    width: 852px;
+    height: 100px;
+}
+.aturan-3 {
+    position: absolute;
+    top: 422px;
+    left: 337px;
+    width: 852px;
+    height: 100px;
+}
+.aturan-4 {
+    position: absolute;
+    top: 566px;
+    left: 337px;
+    width: 852px;
+    height: 100px;
+}
+.desa-marga-agung-container {
+    position: absolute;
+    top: 1px;
+    left: 45px;
+    letter-spacing: 0.09em;
+    line-height: 1%;
+    display: inline-block;
+    width: 175px;
+    height: 32px;
+  }
+  .logo-desa,
+  .logo-desa-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 35px;
+    height: 47px;
+    object-fit: cover;
+  }
+  .logo-desa {
+    position: absolute;
+    top: 8px;
+    left: 26px;
+    width: 220px;
+    height: 47px;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-hammersmith-one);
+  }
+  
+.galeri {
+    position: relative;
+    background-color: #eaeaea;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Fredoka;
+}
+

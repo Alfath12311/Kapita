@@ -1,0 +1,249 @@
+.pngtreeblue-fresh-air-line-ge {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1400px;
+    height: 743px;
+    object-fit: cover;
+}
+.login-admin-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 1400px;
+    height: 743px;
+}
+.kotak-login-icon {
+  position: absolute;
+  top: calc(50% - 196px);
+  left: calc(50% - 475px);
+  width: 825px;
+  height: 484px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: linear-gradient(180deg, rgba(3, 23, 91, 0.85) 0%, rgba(118, 12, 118, 0.86) 100%);
+}
+.welcome {
+    position: absolute;
+    top: calc(50% - 157px);
+    left: calc(50% + 67px);
+    font-size: 36px;
+    line-height: 95%;
+    color: #fff2f2;
+    display: inline-block;
+    width: 208px;
+}
+.login-button{
+    position: absolute;
+    color: transparent;
+    border-bottom: transparent;
+    border-radius: 25px;
+    background-color: transparent;
+    top: calc(50% + 119px);
+    left: calc(50% - 101.5px);
+    width: 203px;
+    height: 44px;
+
+}
+.tombol-login-child {
+    position: absolute;
+    top: calc(50% - 22px);
+    left: calc(50% - 101.5px);
+    border-radius: 25px;
+    background-color: #4552c6;
+    width: 203px;
+    height: 44px;
+}
+.login {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 89.5px);
+    line-height: 95%;
+    display: inline-block;
+    width: 179px;
+}
+.tombol-login {
+    position: absolute;
+    top: calc(50% + 172px);
+    left: calc(50% + 69px);
+    width: 203px;
+    height: 44px;
+    font-size: 20px;
+}
+.group-child {
+    position: absolute;
+    top: calc(50% - 19.5px);
+    left: calc(50% - 113px);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 226px;
+    height: 39px;
+}
+.email {
+    position: absolute;
+    top: calc(50% - 6.5px);
+    left: calc(50% - 19px);
+    line-height: 95%;
+}
+.rectangle-parent {
+    position: absolute;
+    top: calc(50% - 97px);
+    left: calc(50% + 58px);
+    width: 226px;
+    height: 39px;
+    color: #b9b9b9;
+}
+.group-item {
+    position: absolute;
+    top: calc(50% - 19.5px);
+    left: calc(50% - 113px);
+    border-radius: 25px;
+    background-color: #fff;
+    width: 226px;
+    height: 39px;
+}
+.username {
+    position: absolute;
+    top: calc(50% - 6.5px);
+    left: calc(50% - 34px);
+    line-height: 95%;
+}
+.rectangle-group {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% + 58px);
+    width: 226px;
+    height: 39px;
+    color: #b9b9b9;
+}
+.username-class{
+    color: white;
+    font-size: medium;
+    text-decoration: underline;
+    text-decoration-color: white;
+    border-color: transparent;
+    height: 25px;
+    background-color: transparent;
+}
+.password {
+    position: absolute;
+    top: calc(50% - 6.5px);
+    left: calc(50% - 30px);
+    line-height: 95%;
+}
+.password-class{
+    color: white;
+    font-size: medium;
+    text-decoration: underline;
+    text-decoration-color: white;
+    border-color: transparent;
+    height: 25px;
+    background-color: transparent;
+}
+.rectangle-container {
+    position: absolute;
+    top: calc(50% + 33px);
+    left: calc(50% + 58px);
+    width: 226px;
+    height: 39px;
+    color: #b9b9b9;
+}
+.tampilkan-password1 {
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    letter-spacing: 0.02em;
+}
+.tampilkan-password-child {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    border-radius: 2px;
+    border: 1px solid #fdfcfc;
+    box-sizing: border-box;
+    width: 12px;
+    height: 11px;
+}
+.tampilkan-password {
+    position: absolute;
+    top: 453px;
+    left: 733px;
+    width: 155px;
+    height: 16px;
+    text-align: left;
+    font-size: 13px;
+}
+.lupa-password {
+    position: absolute;
+    top: 492px;
+    left: 735px;
+    line-height: 90%;
+    color: #ff3434;
+    display: inline-block;
+    width: 152px;
+    height: 17px;
+}
+.beranda-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #000;
+    width: 215px;
+    height: 51px;
+}
+.beranda1 {
+    position: absolute;
+    top: 12px;
+    left: 71px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    display: inline-block;
+    width: 165px;
+    height: 21px;
+}
+.vector-icon {
+    position: absolute;
+    height: 64.71%;
+    width: 13.98%;
+    top: 17.65%;
+    right: 76.27%;
+    bottom: 17.65%;
+    left: 9.75%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.beranda {
+    position: absolute;
+    top: 36px;
+    left: 29px;
+    width: 236px;
+    height: 51px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 24px;
+    font-family: Fredoka;
+}
+.login-admin-item {
+    position: absolute;
+    top: 216px;
+    left: 226px;
+    border-radius: 15px;
+    width: 410px;
+    height: 347px;
+    object-fit: cover;
+}
+.login-admin {
+    position: relative;
+    background-color: #eaeaea;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Fredoka One';
+}

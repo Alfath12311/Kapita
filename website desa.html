@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="homeglobal.css" />
+    <link rel="stylesheet" href="homestyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fredoka One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hammersmith One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica Rounded:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-screen">
+      <div class="atas">
+        <div class="atas-child" data-scroll-to="rectangle"></div>
+        <img class="profil-icon" alt="" src="Asset/akun putih.png" />
+
+        <div class="login-admin" id="lOGINADMINContainer">
+          <div class="login-admin-child"></div>
+          <div class="login-admin1">LOGIN ADMIN</div>
+        </div>
+        
+        <div class="layanan-mandiri" id="LAYANANMANDIRIContainer">
+          <div class="layanan-mandiri-child"></div>
+          <div class="login-admin1">LAYANAN MANDIRI</div>
+        </div>
+        <img class="vector-icon" alt="" src="Asset/search putih.png" />
+        <div class="cari">CARI...</div>
+      </div>
+
+
+      <div class="sidebar">
+        <div class="sidebar1"></div>
+        <div class="sidebar-child"></div>
+        <div class="prakiraan-cuaca">
+          <div class="prakiraan-cuaca1">PRAKIRAAN CUACA</div>
+          <img class="vector-icon1" alt="" src="Asset/prakiraan.png" />
+        </div>
+        <div class="peta-wilayah" id="pETAWILAYAHContainer">
+          <div class="peta-wilayah1">PETA WILAYAH</div>
+          <img class="mdilocation-icon" alt="" src="Asset/peta.png" />
+        </div>
+
+        <div class="galeri" id="gALERIContainer">
+          <div class="galeri1">GALERI</div>
+          <img class="solargallery-bold-icon" alt="" src="Asset/galeri.png"/>
+        </div>
+
+        <div class="aparatur-desa" id="aPARATURDESAContainer">
+          <div class="aparatur-desa1">APARATUR DESA</div>
+          <img
+            class="material-symbolsperson-icon" alt="" src="Asset/aparatur.png"/>
+        </div>
+
+        <div class="agenda">
+          <div class="agenda1">AGENDA</div>
+          <img class="icon" alt="" src="Asset/agenda.png" />
+        </div>
+
+        <div class="statistik">
+          <img class="gisprofile-o-icon" alt="" src="Asset/statistik.png"/>
+          <div class="statistik1">STATISTIK</div>
+        </div>
+
+        <div class="regulasi">
+          <img class="icon1" alt="" src="Asset/aturan.png" />
+          <div class="aturan-desa">ATURAN DESA</div>
+        </div>
+
+        <div class="berita">
+          <img class="icon2" alt="" src="Asset/informasi desa.png" />
+          <div class="informasi-desa">INFORMASI DESA</div>
+        </div>
+
+        <div class="profil">
+          <div class="status-idm" id="sTATUSIDMText">STATUS IDM</div>
+          <div class="sdg-desa" id="SDGText">SDG DESA</div>
+          <div class="profil1">PROFIL</div>
+          <img class="vector-icon2" alt="" src="Asset/profil.png" />
+          <img class="drop-down-icon" alt="" src="Asset/dropdown.png" />
+        </div>
+
+        <div class="beranda" id="BERANDAContainer">
+          <div class="beranda1">BERANDA</div>
+          <img class="vector-icon3" alt="" src="Asset/home.png"/>
+        </div>
+      </div>
+      
+      <img class="img-20230418-wa0028-1-icon" alt="" src="Asset/foto.jpg"/>
+
+      <div class="logo-desa">
+        <div class="desa-marga-agung-container">
+          <p class="desa">DESA</p>
+          <p class="desa">MARGA AGUNG</p>
+        </div>
+        <img class="logo-desa-icon" alt="" src="Asset/Logo Jati Agung.png" />
+      </div>
+
+      <div class="dusun">
+        <div class="dusun-child"></div>
+        <img class="group-icon" alt="" src="./public/group.svg" />
+
+        <div class="dusun1">DUSUN</div>
+        <b class="b">6</b>
+      </div>
+      <div class="jiwa">
+        <div class="jiwa-child"></div>
+        <div class="dusun1">JIWA</div>
+        <b class="b1">4180</b>
+        <img class="vector-icon4" alt="" src="Asset/jiwa.png" />
+      </div>
+      <img class="geser-gambar-icon" alt="" src="Asset/next1.png" />
+
+      <img class="geser-gambar-icon1" alt="" src="Asset/next2.png" />
+
+      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+      <img class="up-icon" alt="" src="Asset/up.png" id="uP" />
+
+      <div class="keluarga">
+        <div class="keluarga-child"></div>
+        <div class="keluarga1">KELUARGA</div>
+        <b class="b2">934</b>
+        <img class="home-icon" alt="" src="./public/home.svg" />
+      </div>
+      <div class="home-screen-child"></div>
+    </div>
+
+    <script>
+      var lOGINADMINText = document.getElementById("lOGINADMINText");
+    		if(lOGINADMINText) {
+      			lOGINADMINText.addEventListener("click", function (e) {
+              window.location.href = "login.html";
+      			});
+      }
+
+      var LAYANANMANDIRIText = document.getElementById("LAYANANMANDIRIText");
+    		if(LAYANANMANDIRIText) {
+          LAYANANMANDIRIText.addEventListener("click", function (e) {
+              window.location.href = "";
+      			});
+    		}
+      
+      var BERANDAContainer = document.getElementById("BERANDAContainer");
+      if (BERANDAContainer) {
+        BERANDAContainer.addEventListener("click", function (e) {
+          window.location.href = "website desa.html";
+        });
+      }
+
+      var pETAWILAYAHContainer = document.getElementById("pETAWILAYAHContainer");
+      if (pETAWILAYAHContainer) {
+        pETAWILAYAHContainer.addEventListener("click", function (e) {
+          // Please sync "PETA WILAYAH" to the project
+        });
+      }
+      
+      var gALERIContainer = document.getElementById("gALERIContainer");
+      if (gALERIContainer) {
+        gALERIContainer.addEventListener("click", function (e) {
+          window.location.href = "galeri.html";
+        });
+      }
+      
+      var aPARATURDESAContainer = document.getElementById("aPARATURDESAContainer");
+      if (aPARATURDESAContainer) {
+        aPARATURDESAContainer.addEventListener("click", function (e) {
+          // Please sync "Aparatur Desa" to the project
+        });
+      }
+      
+      var sTATUSIDMText = document.getElementById("sTATUSIDMText");
+      if (sTATUSIDMText) {
+        sTATUSIDMText.addEventListener("click", function (e) {
+          // Please sync "STATUS IDM" to the project
+        });
+      }
+
+      var SDGText = document.getElementById("SDGText");
+      if (SDGText) {
+        SDGText.addEventListener("click", function () {
+          // Please sync "STATUS IDM" to the project
+        });
+      }
+      
+      var uP = document.getElementById("uP");
+      if (uP) {
+        uP.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

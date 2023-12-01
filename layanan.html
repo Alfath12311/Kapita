@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Data Warga</title>
+  <!-- Tambahkan stylesheet CSS sesuai kebutuhan -->
+</head>
+<body>
+  <h2>Form Data Warga</h2>
+  <form action="process_form.php" method="post" enctype="multipart/form-data">
+    <label for="nik">NIK:</label>
+    <input type="text" id="nik" name="nik" required><br>
+
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required><br>
+
+    <label for="tempat_tanggal_lahir">Tempat/Tanggal Lahir:</label>
+    <input type="text" id="tempat_tanggal_lahir" name="tempat_tanggal_lahir" required><br>
+
+    <label>Jenis Kelamin:</label>
+    <input type="radio" id="jenis_kelamin_l" name="jenis_kelamin" value="Laki-laki" required>
+    <label for="jenis_kelamin_l">Laki-laki</label>
+    <input type="radio" id="jenis_kelamin_p" name="jenis_kelamin" value="Perempuan" required>
+    <label for="jenis_kelamin_p">Perempuan</label><br>
+
+    <label for="alamat">Alamat:</label>
+    <textarea id="alamat" name="alamat" required></textarea><br>
+
+    <label for="agama">Agama:</label>
+    <input type="text" id="agama" name="agama" required><br>
+
+    <label for="pekerjaan">Pekerjaan:</label>
+    <input type="text" id="pekerjaan" name="pekerjaan" required><br>
+
+    <label for="file_lampiran">File Lampiran:</label>
+    <input type="file" id="file_lampiran" name="file_lampiran"><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

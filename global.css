@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-helvetica-rounded: "Helvetica Rounded";
+    --font-fredoka-one: "Fredoka One";
+    --font-hammersmith-one: "Hammersmith One";
+    --font-fredoka: Fredoka;
+  
+    /* font sizes */
+    --font-size-45xl: 64px;
+    --font-size-xl: 20px;
+    --font-size-sm: 14px;
+    --font-size-smi: 13px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+  
+    /* Border radiuses */
+    --br-lgi: 19px;
+    --br-2xs: 11px;
+  }
+  

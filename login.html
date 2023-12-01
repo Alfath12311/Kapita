@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+
+  <!-- Link ke Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <link rel="stylesheet" href="loginstyle.css" />
+  <link rel="stylesheet" href="loginglobal.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka One:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hammersmith One:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica Rounded:wght@700&display=swap" />
+
+  <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<div class="login-admin">
+  <img class="pngtreeblue-fresh-air-line-ge" alt="" src="Asset/bg login.jpg">
+
+  <div class="login-admin-child"></div>
+  <img class="kotak-login-icon"></img>
+
+  <div class="welcome">WELCOME</div>
+  <div class="tombol-login">
+    <div class="tombol-login-child"></div>
+    <div class="login">LOGIN</div>
+  </div>
+
+  <form action="authenticate.php" method="post">
+    <div class="rectangle-group">
+      <label for="username">
+        <i class="fas fa-user"></i>  :
+      </label>
+      <input type="text" id="username" name="username" placeholder="Masukkan Username" class="username-class" required>
+    </div>
+
+    <div class="rectangle-container">
+      <label for="password">
+        <i class="fas fa-lock"></i>  : 
+      </label>
+      <input type="password" id="password" name="password" placeholder="Masukkan Password" class="password-class" required>
+      <div class="tampilkan-password" id="togglePassword">
+        <div class="tampilkan-password1">Tampilkan Password</div>
+        <div class="tampilkan-password-child"></div>
+      </div>
+      <input type="submit" value="Login" class="login-button">
+    </div>
+
+    <div class="beranda" id="bERANDAContainer">
+      <div class="beranda-child"></div>
+      <div class="beranda1">BERANDA</div>
+      <img class="vector-icon" alt="" src="Asset/home putih.png">
+    </div>
+  </form>
+
+  <img class="login-admin-item" alt="" src="Rectangle 16.png">
+</div>
+
+<script>
+  $(document).ready(function () {
+    // Toggle password visibility
+    $('#togglePassword').click(function () {
+      const passwordField = $('#password');
+      const passwordFieldType = passwordField.attr('type');
+      const newPasswordFieldType = passwordFieldType === 'password' ? 'text' : 'password';
+      passwordField.attr('type', newPasswordFieldType);
+    });
+
+    // Handle form submission
+    $('form').submit(function (event) {
+      event.preventDefault();
+
+      // Retrieve username and password values from the login form
+      const username = $('#username').val();
+      const password = $('#password').val();
+
+      // You can add AJAX code here to send data to the server for authentication
+      // Example:
+      // $.ajax({
+      //     type: 'POST',
+      //     url: 'your_backend_endpoint',
+      //     data: { username: username, password: password },
+      //     success: function (response) {
+      //         console.log(response);
+      //         // Redirect to home.html if authentication is successful
+      //         window.location.href = "home.html";
+      //     },
+      //     error: function (error) {
+      //         console.error(error);
+      //     }
+      // });
+    });
+
+    // Handle click on "BERANDA" container
+    var bERANDAContainer = document.getElementById("bERANDAContainer");
+    if (bERANDAContainer) {
+      bERANDAContainer.addEventListener("click", function (e) {
+        window.location.href = "home.html";
+      });
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-fredoka-one: "Fredoka One";
+    --font-fredoka: Fredoka;
+    --font-helvetica: Helvetica;
+    --font-helvetica-rounded: "Helvetica Rounded";
+    --font-hammersmith-one: "Hammersmith One";
+  
+    /* font sizes */
+    --font-size-smi: 13px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-whitesmoke: #eaeaea;
+    --color-white: #fff;
+    --color-limegreen: #3db732;
+    --color-slateblue: #4552c6;
+    --color-black: #000;
+    --color-brown: #9a2828;
+    --color-plum: #c2abe0;
+  
+    /* Border radiuses */
+    --br-mini: 15px;
+    --br-2xs: 11px;
+    --br-smi: 13px;
+    --br-3xs: 10px;
+  }
+  
